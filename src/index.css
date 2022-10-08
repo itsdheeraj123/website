@@ -12,7 +12,7 @@
 }
 
 .navbar-brand {
-  font-size: 1.9rem !important;
+  font-size: 3rem !important;
   color: purple !important;
 }
 .navbar a {
@@ -21,8 +21,8 @@
 }
 .menu_active {
   font-weight: bold;
-  border-bottom: 1px solid #565387 !important;
-  text-decoration: underline;
+  /* border-bottom: 1px solid #565387 !important; */
+  /* text-decoration: underline; */
 }
 .navbar a:hover {
   color: blue !important;
@@ -42,13 +42,14 @@
 
 #header-img {
   text-align: right;
+  align-self: auto;
 }
 #header .animated {
   animation: up-down 2s ease-in-out infinite alternate-reverse both;
 }
 @-webkit-keyframes up-down {
   0% {
-    transform: translateY(10px);
+    transform: translateY(40px);
   }
   100% {
     transform: translateY(-10px);
@@ -56,7 +57,7 @@
 }
 @keyframes up-down {
   0% {
-    transform: translateY(10px);
+    transform: translateY(20px);
   }
   100% {
     transform: translateY(-10px);

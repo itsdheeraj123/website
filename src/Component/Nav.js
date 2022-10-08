@@ -11,12 +11,19 @@ import "../index.css";
 const Nav = () => {
   return (
     <>
-      <div className="container-fluid nav_bg">
-        <div className="row">
+      <div className="container-fluid nav_bg ">
+        <div className="">
           <div className="col-10 mx-auto">
-            <nav className="navbar navbar-expand-lg">
-              <div className="container-fluid">
-                <NavLink className="navbar-brand" to="/">
+            <nav className="navbar navbar-expand-lg ">
+              <div className="container-fluid ">
+                <NavLink
+                  className="navbar-brand mt-2 "
+                  style={{
+                    dislay: "flex",
+                    justifyContent: "flex-start",
+                  }}
+                  to="/"
+                >
                   Zuchini
                 </NavLink>
                 <button
@@ -37,8 +44,7 @@ const Nav = () => {
                   <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
                     <li className="nav-item">
                       <NavLink
-                        activeClassName="menu_active"
-                        className="nav-link active"
+                        className="nav-link active menu_active"
                         aria-current="page"
                         to="/"
                       >
@@ -46,29 +52,17 @@ const Nav = () => {
                       </NavLink>
                     </li>
                     <li className="nav-item">
-                      <NavLink
-                        activeClassName="menu_active"
-                        className="nav-link"
-                        to="/service"
-                      >
+                      <NavLink className="nav-link menu_active" to="/service">
                         Service
                       </NavLink>
                     </li>
                     <li className="nav-item">
-                      <NavLink
-                        activeClassName="menu_active"
-                        className="nav-link"
-                        to="/about"
-                      >
+                      <NavLink className="nav-link menu_active" to="/about">
                         About
                       </NavLink>
                     </li>
                     <li className="nav-item">
-                      <NavLink
-                        activeClassName="menu_active"
-                        className="nav-link"
-                        to="/contact"
-                      >
+                      <NavLink className="nav-link menu_active" to="/contact">
                         Contact
                       </NavLink>
                     </li>

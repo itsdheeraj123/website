@@ -9,7 +9,7 @@ import Home from "./Component/Home";
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import "../node_modules/bootstrap/dist/js/bootstrap.bundle";
 import "./index.css";
-
+import Footer from "./Component/Footer";
 const App = () => {
   return (
     <>
@@ -20,6 +20,7 @@ const App = () => {
         <Route path="/service" element={<Service />}></Route>
         <Route path="/contact" element={<Contact />}></Route>
       </Routes>
+      <Footer />
     </>
   );
 };
