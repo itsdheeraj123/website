@@ -3,12 +3,12 @@ import React from "react";
 export default function Contact() {
   return (
     <>
-      <div className="my-5">
+      <div className="my-2">
         <h1 className="text-center">Contact US!</h1>
       </div>
       <div className="container contact_div">
         <div className="row">
-          <div className="col-md-6 col-10 mx-auto "></div>
+          <div className="col-md-5 col-5 mx-auto "></div>
           <form autoComplete="off">
             <div class="mb-3">
               <label for="exampleFormControlInput1" class="form-label">
